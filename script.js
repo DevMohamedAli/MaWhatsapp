@@ -1,12 +1,15 @@
 // Vanilla Javascript
    
     function wahtsapp() {
-        let phone = document.querySelector("#telephone").value;
-        localStorage.setItem("phone",phone);
-        let phonedata = localStorage.getItem("phone");
-        console.log(phonedata);
-        window.open(`https://api.whatsapp.com/send/?phone=${phonedata}&text&app_absent=0`)
-        
+        var phone = document.querySelector("#telephone").value;
+        if (isNaN(phone) || phone === '') {
+            document.getElementById('telephone').placeholder = "plz enter number"
+        }else{
+            localStorage.setItem("phone",phone);
+            let phonedata = localStorage.getItem("phone");
+            console.log(phonedata);
+            window.open(`https://api.whatsapp.com/send/?phone=${phonedata}&text&app_absent=0`) 
+        }
     };
     // (
     // function myLoad() {

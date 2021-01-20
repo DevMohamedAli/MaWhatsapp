@@ -1,0 +1,27 @@
+{
+  "name": "cheatswhatsapp",
+  "version": "1.0.0",
+  "description": "just having fun",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm run dev",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://devmohamedali.github.io/MaWhatsapp/"
+  },
+  "keywords": [
+    "whatsapp",
+    "js",
+    "javascript",
+    "html",
+    "css",
+    "bootstrap"
+  ],
+  "author": "muhammmed ali Abohsan",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

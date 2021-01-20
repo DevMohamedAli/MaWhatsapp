@@ -11,33 +11,23 @@ body{
     height: 100vh;
 }
 .container{
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(0, 0, 0, 0.3);
     height: 90vh;
     padding: 25px;
-    border-radius:20px;
-  
+    border-radius:20px;  
 }
 .row{
     --bs-gutter-x: 0;
     height: 100%;
     width: 100%;
 }
-/* .brand{
-    text-align: center;
-    margin-bottom: 250px;
-}
-.brand img {
-    width: 250px;
-}
-/* . */
+
 .des{
-    color:#00E676;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.7rem;
+    color:#FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.9rem;
 }
-
-
 
 .btn-success{
     margin-top: 50px;
