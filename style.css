@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+body{
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
 }
 
 .mainScreen{
@@ -10,31 +10,37 @@
     place-content: center;
     height: 100vh;
 }
-.brand{
+.container{
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 90vh;
+    padding: 25px;
+    border-radius:20px;
+  
+}
+.row{
+    height: 100%;
+    width: 100%;
+}
+/* .brand{
     text-align: center;
     margin-bottom: 250px;
 }
 .brand img {
     width: 250px;
 }
-.mainScontent{
-    text-align: center;
+/* . */
+.des{
+    color:#00E676;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7rem;
 }
-.mainScontent form input{
-    width: 70vw;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: .071em;
-    line-height: 19px;
-    padding: 10px  20px;
-    border-radius: 5px;
-    border: none;
-    margin: 100px;
-}
-.mainScontent form button{
+
+
+
+.btn-success{
     margin-top: 50px;
     border-radius: 40px;
-    display: inline-block;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: .071em;
@@ -45,4 +51,4 @@
     background-color: #01e675;
     color: #fff !important;
     border: none;
-}
+} 

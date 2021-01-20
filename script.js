@@ -1,13 +1,5 @@
 // Vanilla Javascript
    
-    var input = document.querySelector("#telephone");
-    
-    window.intlTelInput(input,({
-        autoHideDialCode:true,
-        autoPlaceholder:"polite",
-        geoIpLookup:null,
-        utilsScript: "vendor/utils.js",
-    }));
     function wahtsapp() {
         let phone = document.querySelector("#telephone").value;
         localStorage.setItem("phone",phone);
