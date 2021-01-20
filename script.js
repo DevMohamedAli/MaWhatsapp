@@ -3,7 +3,7 @@
     function wahtsapp() {
         var phone = document.querySelector("#telephone").value;
         if (isNaN(phone) || phone === '') {
-            document.getElementById('telephone').placeholder = "plz enter number"
+            document.getElementById('telephone').placeholder = "أدخل رقما من فضلك"
         }else{
             localStorage.setItem("phone",phone);
             let phonedata = localStorage.getItem("phone");
